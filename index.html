@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-  <!-- Add your HTML content here -->
+
+<!-- NAV -->
+<nav>
+    <h2>Ko</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+    <div class="hero-content">
+        <h1>Ko's Portfolio Website</h1>
+        <p>Building clean, functional software and learning something new every day.</p>
+        <a href="#projects" class="btn">View Projects</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I'm a CS student focused on software development, mobile apps, and machine learning.
+        This portfolio showcases projects I’ve built throughout my coursework.
+    </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="card">
+            <h3>Android App</h3>
+            <p>Built with Jetpack Compose. Focused on clean UI and state management.</p>
+        </div>
+
+        <div class="card">
+            <h3>Machine Learning Model</h3>
+            <p>Custom CNN trained on CIFAR-10 with performance tracking.</p>
+        </div>
+
+        <div class="card">
+            <h3>Networking Project</h3>
+            <p>Docker-based OSPF topology with automated orchestration.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <span>Java</span>
+        <span>Kotlin</span>
+        <span>Python</span>
+        <span>C++</span>
+        <span>Machine Learning</span>
+        <span>Android</span>
+        <span>Git</span>
+    </div>
+</section>
+
+<footer>
+    © 2026 Ko
+</footer>
+
 </body>
 </html>
